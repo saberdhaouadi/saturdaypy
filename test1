@@ -1,4 +1,4 @@
 print("Enter the file to read :")
-filer = input()
-f = open(filer, "r")
+
+f = open('filetest', "r")
 print(f.read())

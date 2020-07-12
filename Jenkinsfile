@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'python3 test1'
-                sh 'file.txt'
+                
             }
         }
     }
