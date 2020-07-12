@@ -11,6 +11,12 @@ pipeline {
                 sh 'python3 unittest'
             }
         }
+        stage('deploy') {
+            steps {
+                sh 'python3 deployunit'
+            }
+        }
+
       }
 
     
