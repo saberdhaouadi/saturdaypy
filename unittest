@@ -1,0 +1,7 @@
+print("all the 100 numbers in a list")
+list1=[]
+for i in range(100):
+    list1.append(i)
+
+
+print(list1)

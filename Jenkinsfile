@@ -6,6 +6,9 @@ pipeline {
                 sh 'python3 test1'
                 
             }
+        stage('test') {
+            steps {
+                sh 'python3 unitest1'
         }
     }
 }
